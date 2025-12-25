@@ -1,0 +1,164 @@
+.Title_section{
+    margin-bottom:70px;
+    margin-top:160px;
+}
+.Title{
+    display: flex; 
+    justify-content: center;    
+    align-content: flex-end;
+}
+.Title_section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 45px;
+    color: #222;
+}
+.Title_sub{
+    display:flex;
+    gap:5px;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+} 
+.Catalog .Catalog_title{
+    display:flex;
+    padding-left:50px;
+    padding-right:60px;
+    align-content: flex-end;
+}
+
+.Catalog_title .rated{
+    flex: 1;
+    font-size: 30px;
+}
+.Catalog_main{
+ display:flex;
+ height:100%;
+ padding-top: 40px;
+}
+.Catalog_options{
+    padding-left:60px;
+    flex:1;
+}
+.Catalog_container{
+    right:0;
+    flex:4;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color: #ededed;
+}
+.New_section {
+    margin-top: 20px;
+}
+.New_container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.New_card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 310px;
+    border: 2px dashed #0b84ed;
+    height: 425px;
+    overflow: hidden;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+.New_img {
+    width: 300px;
+    height: 325px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.New_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.New_card .New_subtitle{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-size: 21px;
+}
+.New_subtitle a{
+    color: black;
+    text-decoration: none;
+}
+.New_card .New_price{
+    text-align:center;
+    color: #555;
+}
+.New_card:hover {
+    transform: translateY(-5px);
+    box-shadow:0px 0px 8px black;
+}
+.New_card:hover .New_subtitle,.New_card:hover .New_price{
+    color: goldenrod;
+}
+
+table {
+    width: 60%;
+    font-size: 20px;
+  }
+
+  td {
+    padding: 25px 0;
+    border-bottom: 1.5px solid black;
+    font-weight: normal;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  td:hover{
+    transform: translateY(-5px);
+    color: goldenrod;
+  }
+  select {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+  }
+  .color {
+    flex-wrap: wrap;
+    display: flex;
+    margin-right:150px;
+    gap: 20px;
+}
+
+.color button{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.size {
+    flex-wrap: wrap;
+    display: flex;
+    margin-right:150px;
+    gap: 20px;
+}
+
+.size button{
+    width: 32px;
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}

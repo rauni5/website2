@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products</title>
+        <meta name="description" content="Akira All products">
+        <!--Meta tag for keywords used to design and develop the website-->
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <link rel="stylesheet" href="../resources/css/main.css">
+        <link rel="stylesheet" href="../resources/css/footer.css">
+        <link rel="stylesheet" href="../resources/css/Product.css">
+        <script src="../resources/Java/main.js"></script>
+        <style>
+          html {
+          scroll-padding-top: 120px;
+          scroll-behavior: smooth;
+        }
+        .Catalog_container{
+         background-color: #E5F3FF; 
+         border:2px dashed  rgb(255, 154, 38);
+        }
+         .women .New_card{
+          border:2px dashed  rgb(254, 130, 161);
+        }
+        .kid .New_card{
+         border:2px dashed  rgb(66, 255, 72);
+        }
+        </style>
+    </head>
+    <body>
+      <div class="main">
+      <!--Navigation Bar Starting-->
+      <nav id="navbar" class="transparent">
+        <div class="nav-left">
+          <div style="width: 40px;"></div>
+          <a style="cursor: pointer;" class="menu" onclick="openNav()">&equiv;</a>
+          <div style="width: 20px;"></div>
+          <img src="../resources/Imgs/Logos/Shopping_cart.png" class="nav-icon" onclick="opencart()">
+        </div>
+          <img src="../resources/Imgs/Logos/image.png" class="center-logo">
+        <div class="nav-right">
+          <a href="Account.html"><img src="../resources/Imgs/Logos/profile.png" class="nav-icon"></a>
+          <div style="width: 40px;"></div>
+          <img src="../resources/Imgs/Logos/Search.png" class="nav-icon">
+          <div style="width: 70px;"></div>
+        </div>
+      </nav>
+      <!--Cart and Menu Section-->
+      <section id="menudrop" class="menudrop">
+        <a class="closemenu" onclick="closeNav()">&times;</a>
+        <a href="Product.html">Shop <span>&#8250;</span></a>
+        <a href="Blog.html">Blog <span>&#8250;</span></a>
+        <a href="Account.html">Account <span>&#8250;</span></a>
+        <a href="Research.html">Research <span>&#8250;</span></a>
+        <a href="About_us.html">About Us <span>&#8250;</span></a>
+        <a href="Contact_us.html">Contact Us <span>&#8250;</span></a>
+      </section>
+      <section id="cartdrop" class="cartdrop">
+        <a class="closemenu"  onclick="closecart()">&times;</a>
+        <h2 style="padding:30px">SHOPPING CART</h2>
+        <article>
+          <img src="../resources/Imgs/Logos/Logo 1.jpg" alt="item">
+          <p style="width:100%;"><strong>MATRIX AIR</strong><br><small>1 × Rs 8,999</small></p>
+          <span style="cursor:pointer;">🗑️</span>
+        </article>
+        <article>
+          <img src="../resources/Imgs/Logos/Logo 1.jpg" alt="item" >
+          <p style="width:100%"><strong>SAMBA BLUE</strong><br><small>1 × Rs 18,999</small></p>
+          <span style="cursor:pointer;">🗑️</span>
+        </article>
+    
+        <p class="subtotal"><strong>Subtotal:</strong> <span>Rs 27,998</span></p>
+    
+        <button>View Cart</button><br>
+        <button>Checkout</button>
+      </section>
+        <!--Navigation Bar Starting-->
+        <!--Shop Title-->
+        <section class="Title_section">
+          <div class="Title"><h2>Shop</h2></div>
+          <div class="Title_sub"><a href="../index.html" style="text-decoration: none;color: black;font-weight: bold;">Home</a><a> > </a><a style="font-weight: bold; color: goldenrod;">Shop</a></div>
+          </section>
+          <section class="Catalog">
+            <div class="Catalog_title">
+              <div class="rated"><a>TOP RATED</a></div>
+              <div class="sort">
+                <select onchange="location.href='Product.html#'+value">
+                  <option hidden disabled selected>All</option>
+                  <option value="men">Men</option>
+                  <option value="women">Women</option>
+                  <option value="kids">Kids</option>
+                </select>
+              </div>
+            </div>
+            <div class="Catalog_main">
+            <div class="Catalog_options">
+              <table>
+                <tr><td>Sneakers</td></tr>
+                <tr><td>Sports</td></tr>
+                <tr><td>Casuals</td></tr>
+                <tr><td>Boots</td></tr>
+                <tr><td>Loafers</td></tr>
+                <tr><td>Slippers</td></tr>
+                <tr><td>Running</td></tr>
+                <tr><td>Sliders</td></tr>
+              </table>
+              <h2>Prices</h2>
+              <input type="range" min="0" max="63000" value="0" style="width: 80%; padding: 10px;">
+              <p style="font-size: 14px; padding-bottom: 10px; width: 100%;">Range: Rs0 - rs 63,000</p>
+              <button style="padding: 5px 10px;border: 1px solid black;background: white;cursor: pointer;font-weight: bold;">FILTER</button>
+              <h2>Sizes</h2>
+              <div class="size">
+              <button>2</button>
+              <button>4</button>
+              <button>6</button>
+              <button>8</button>
+              <button>10</button>
+              <button>12</button>
+              </div>
+              <h2>colors</h2>
+              <div class="color">
+              <button style="background-color: white;"></button>
+              <button style="background-color: red;"></button>
+              <button style="background-color: black;"></button>
+              <button style="background-color: aqua;"></button>
+              <button style="background-color: yellow;"></button>
+              <button style="background-color: green;"></button>
+              <button style="background-color: pink"></button>
+              </div>
+            </div>
+            <div class="Catalog_container">
+              <section class="New_section" >
+                <h1 style="text-align: center;font-size: 40px;" id="men">MEN</h1>
+                <div class="New_container" style="padding: 50px;border-radius: 100px;">
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/new_arivals_11.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Vans Old Skool Dx</strong></div>
+                      <div class="New_price"><strong>Rs. 5,999</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/new_arriavls_6.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Jordan 1 Mid "Triple White"</strong></div>
+                      <div class="New_price"><strong>Rs. 49,9999</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/new_arriavls_7.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Jordan Womens Heirs</strong></div>
+                      <div class="New_price"><strong>Rs. 19,999</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/new_arriva_s_15.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>  Puma Mostro</strong></div>
+                      <div class="New_price"><strong>Rs. 4,699</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/New_arrivals_9.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Puma Speedcat OG</strong></div>
+                      <div class="New_price"><strong>Rs. 7,599</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/New_arrivals_1.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Adidas Dropset 2</strong></div>
+                      <div class="New_price"><strong>Rs. 19,999</strong></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="women" style="background-color: rgb(255, 243, 246); padding-bottom:100px;">
+                  <h1 style="text-align: center;font-size: 40px; border-top:2px dashed  rgb(255, 154, 38); padding-top: 40px;" id="women">WOMEN</h1>
+                <div class="New_container">
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/new_arrivals_10.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Puma Suede</strong></div>
+                      <div class="New_price"><strong>Rs. 8,999</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/new_arrivals_12.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Vans Old Skool</strong></div>
+                      <div class="New_price"><strong>Rs. 3,499</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/new_arrivals_13.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Puma Easy Rider</strong></div>
+                      <div class="New_price"><strong>Rs. 13,000</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/new_arrivals_14.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Puma Inhale</strong></div>
+                      <div class="New_price"><strong>Rs. 10,000</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/New_arrivals_2.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Adidas Handball Spezial</strong></div>
+                      <div class="New_price"><strong>Rs. 15,499</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/New_arrivals_3.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Adidas Rivalry Row</strong></div>
+                      <div class="New_price"><strong>Rs. 10,999</strong></div>
+                    </a>
+                  </div>
+                </div>
+                </div>
+                <div class="kid" style="background-color: rgb(249, 255, 241);">
+                <h1 style="text-align: center;font-size: 40px; border-top:2px dashed  rgb(255, 154, 38); padding-top: 40px;margin-top: 0px;" id="kids">KIDS</h1>
+                <div class="New_container">
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/New_arrivals_4.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Adidas OZWEEGO</strong></div>
+                      <div class="New_price"><strong>Rs. 29,099</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/New_arrivals_5.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Adidas Jordan 1 Low"Midnight Navy"</strong></div>
+                      <div class="New_price"><strong>Rs. 14,099</strong></div>
+                    </a>
+                  </div>
+                  <div class="New_card">
+                    <a href="Product_single.html" style="text-decoration: none; color: black;">
+                      <div class="New_img">
+                        <img src="../resources/Imgs/Shop/New_arrivals_8.png" alt="Product" />
+                      </div>
+                      <div class="New_subtitle"><strong>Adidas Argentina Samba</strong></div>
+                      <div class="New_price"><strong>Rs. 21,999</strong></div>
+                    </a>
+                  </div>
+                </div>
+               </div>
+              </section>
+              <div class="Catalog_containerNum" style="display: flex; justify-content: center; padding: 50px;gap:40px;background-color: rgb(249, 255, 241);">
+                <button style="border-radius: 50%;color:white;background-color: black;width: 30px; height:30px;font-size: 20px;cursor:pointer;">1</button>
+                <button style="border-radius: 50%; width: 30px;background:none; height:30px;font-size: 20px;cursor: pointer;">2</button>
+                <button style="border-radius: 50%;width: 30px; height:30px;background:none;font-size: 20px;cursor: pointer;">3</button>
+                <button style="border-radius: 50%;width: 30px; height:30px;font-size: 20px;background:none;cursor: pointer;">4</button>
+                <button style="border-radius: 50%;width: 30px; height:30px;font-size: 20px;cursor: pointer;background:none;">5</button>
+              </div> 
+            </div>
+          </div>
+          </section>
+          
+          
+        </div>
+<!-- Footer section, About Us & Contacts-->
+<footer>
+  <div class="footer-container">
+      <div class="footer-column">
+          <img src="../resources/Imgs/Logos/image.png" alt="just a random logo" width="200px">
+          
+      </div>
+  <div class="footer-column">
+      <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">About Us</a></li>
+      </ul>
+
+  </div>
+  <div>
+     <p>Contact</p>
+     <p>Email</p>
+     <p>Blogs</p>
+  </div>
+  <div class="footer-column">
+      <p>+977-9841-37-XXXX</p>
+      <p>akira@inquiry.com</p>
+      <div class="social-icons">  <!-- Appearing of the icons on the same line creating a seperate class -->
+      <img src="../resources/Imgs/footer/facebook-svgrepo-com.svg" alt="facebook" width="12px">
+      <img src="../resources/Imgs/footer/instagram-svgrepo-com.svg" alt="Instagram" width="20px">
+      <img src="../resources/Imgs/footer/twitter-svgrepo-com.svg" alt="Twitter" width="20px">
+      </div>
+      </div>
+    </div>
+    <div class="footer_rights">
+      <a>2025 Akira NP,Inc. All rights reserved</a>
+    </div>
+</footer>
+    </body>
+</html>

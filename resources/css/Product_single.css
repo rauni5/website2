@@ -1,0 +1,262 @@
+.Title_section{
+    margin-bottom:50px;
+    margin-top:160px;
+}
+.Title{
+    display: flex; 
+    justify-content: center;    
+    align-content: flex-end;
+}
+.Title_section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 45px;
+    color: #222;
+}
+.Title_sub{
+    display:flex;
+    gap:5px;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+} 
+.Catalog .Catalog_title{
+    display:flex;
+    padding-left:50px;
+    padding-right:60px;
+    justify-content: flex-end;
+}
+
+.Catalog_title .Back{
+    font-size: 30px;
+    transition: 0.4s;
+    display: flex;
+    gap:15px;
+}
+.Catalog_title .Back:hover{
+    transform: translateY(-4px);
+}
+.Catalog_title .Back a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Catalog_title .Back:hover a{
+    color:goldenrod;
+}
+
+.team_section {
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.team_container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.team_section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+}
+
+.team_card {
+    flex: 4;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 1px dashed gray;
+}
+
+.team_img {
+    height: 600px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.team_par {
+    flex: 4;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.team_par .team_title {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.team_par .team_subtitle {
+    text-align: left;
+    color: #555;
+    margin-bottom: 30px;
+    margin-right: 250px;
+}
+.color {
+    flex-wrap: wrap;
+    display: flex;
+    margin-right:150px;
+    gap: 15px;
+}
+
+.color button{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+
+/**/
+.N_container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.N_card {
+    min-width: 200px;
+    max-width: 210px;
+    height: 270px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+.N_card:hover {
+    transform: translateY(-5px);
+}
+.N_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed gray;
+}
+
+.N_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15   px;
+    cursor: pointer;
+}
+
+.New_section {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.New_section h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+}
+.New_container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.New_card {
+    flex: 4;
+    min-width: 300px;
+    max-width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 50px;
+    border: 1px dashed gray;
+}
+.New_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 7px gray;
+}
+.Newhead_container .Newhead_card a:hover,.New_card:hover .New_subtitle a,.New_card:hover .New_price{
+    color: goldenrod;
+}
+.New_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.New_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.New_card .New_subtitle{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-size: 21px;
+}
+.New_subtitle a{
+    color: black;
+    text-decoration: none;
+}
+.New_card .New_price{
+    text-align:center;
+    color: #555;
+}
+.Newhead_section h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+}
+.Newhead_container {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.Newhead_card {
+    flex: 0;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.Newhead_card a{
+    color: black;
+}
+

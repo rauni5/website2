@@ -1,0 +1,262 @@
+
+/* Blog Section Styles */
+.blogs_section {
+    margin-bottom: 40px;
+}
+
+.blogs_section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+}
+
+.blog_container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog_card {
+    flex: 1;
+    min-width: 500px;
+    max-width: 600px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.blog_card:hover {
+    transform: translateY(-5px);
+}
+
+.blog_content {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    height:200px;
+    border-radius: 0 0 10px 10px;
+}
+
+.blog_content h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.blog_content p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.blog_container a .explore-button {
+    background: transparent; 
+    border: 2px solid white; 
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    outline: none; 
+}
+.blog_container a{
+    text-decoration: none;
+    color:white;
+}
+/* Hover Effects */
+.blog_container a .explore-button:hover {
+    background: rgba(255, 255, 255, 0.1); 
+}
+
+/* Products Section Styles */
+.blogs_section2 {
+    margin-bottom: 40px;
+}
+
+.blogs_section2 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+}
+
+.blog_container2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog_card2 {
+    flex: 1;
+    min-width: 150px;
+    max-width: 290px;
+    height: 250px;
+    background:
+        url('/resources/Imgs/Logos/shoe_promo.webp ');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog_card2:hover {
+    transform: translateY(-5px);
+}
+
+.blog_content2 {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Info Boxes Section */
+.info-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.main-info-box {
+    background: #333;
+    color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    flex: 2;
+    min-width: 250px;
+}
+
+.sub-info-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.sub-box {
+    background: #555;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.our_network {
+    padding: 35px;
+    text-align: center;
+}
+
+.network_gallery {
+    display: flex;
+    flex-wrap: wrapx;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px auto;
+}
+
+.network_gallery img {
+    border-radius: 4px;
+}
+
+.network_gallery img:hover {
+    transform: scale(1.2);
+    border: 1px solid black;
+}
+footer {
+    background-color:  rgb(210, 234, 255);
+    padding-bottom: 0px;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    padding: 20px;
+    padding-bottom: 0;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column:last-child {
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column img {
+    display: block;
+    margin-top: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin: 5px 0;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-column p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-container > div:nth-child(3) {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-container > div:nth-child(3) p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style for the social media icons */
+.footer-column:last-child .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.footer_rights{
+    text-align: center;
+    width:auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    align-content: center;
+}
+.footer_rights a{
+        font-size:19px;
+}
+  

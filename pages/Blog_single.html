@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Details</title>
+        <meta name="description" content="Akira Single blog detail">
+        <!--Meta tag for keywords used to design and develop the website-->
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <link rel="stylesheet" href="../resources/css/main.css">
+        <link rel="stylesheet" href="../resources/css/footer.css">
+        <link rel="stylesheet" href="../resources/css/blog_single.css">
+        <script src="../resources/Java/main.js"></script>
+        <script src="../resources/Java/Comment.js"></script>
+        <style>
+          .New_price{
+            margin-top:10px;
+            font-size: 19px;
+          }
+        </style>
+    </head>
+    <body>
+      <div class="main">
+      <!--Navigation Bar Starting-->
+      <nav id="navbar" class="transparent">
+        <div class="nav-left">
+          <div style="width: 40px;"></div>
+          <a style="cursor: pointer;" class="menu" onclick="openNav()">&equiv;</a>
+          <div style="width: 20px;"></div>
+          <img src="../resources/Imgs/Logos/Shopping_cart.png" class="nav-icon" onclick="opencart()">
+        </div>
+          <img src="../resources/Imgs/Logos/image.png" class="center-logo">
+        <div class="nav-right">
+          <a href="Account.html"><img src="../resources/Imgs/Logos/profile.png" class="nav-icon"></a>
+          <div style="width: 40px;"></div>
+          <img src="../resources/Imgs/Logos/Search.png" class="nav-icon">
+          <div style="width: 70px;"></div>
+        </div>
+      </nav>
+      <!--Cart and Menu Section-->
+      <section id="menudrop" class="menudrop">
+        <a class="closemenu"  onclick="closeNav()">&times;</a>
+        <a href="Product.html">Shop <span>&#8250;</span></a>
+        <a href="Blog.html">Blog <span>&#8250;</span></a>
+        <a href="Account.html">Account <span>&#8250;</span></a>
+        <a href="Research.html">Research <span>&#8250;</span></a>
+        <a href="About_us.html">About Us <span>&#8250;</span></a>
+        <a href="Contact_us.html">Contact Us <span>&#8250;</span></a>
+      </section>
+      <section id="cartdrop" class="cartdrop">
+        <a class="closemenu"  onclick="closecart()">&times;</a>
+        <h2 style="padding:30px">SHOPPING CART</h2>
+        <article>
+          <img src="../resources/Imgs/Logos/Logo 1.jpg" alt="item">
+          <p style="width:100%;"><strong>MATRIX AIR</strong><br><small>1 × Rs 8,999</small></p>
+          <span style="cursor:pointer;">🗑️</span>
+        </article>
+        <article>
+          <img src="../resources/Imgs/Logos/Logo 1.jpg" alt="item" >
+          <p style="width:100%"><strong>SAMBA BLUE</strong><br><small>1 × Rs 18,999</small></p>
+          <span style="cursor:pointer;">🗑️</span>
+        </article>
+    
+        <p class="subtotal"><strong>Subtotal:</strong> <span>Rs 27,998</span></p>
+    
+        <button>View Cart</button><br>
+        <button>Checkout</button>
+      </section>
+        <!--Navigation Bar Ending-->
+        <!--Shop Section-->
+        <section class="Title_section">
+          <div class="Title"><h2>Blog Details</h2></div>
+          <div class="Title_sub"><a href="../index.html" style="text-decoration: none;color: black;font-weight: bold;">Home</a><a> > </a><a href="Blog.html"style="text-decoration: none;color: black;font-weight: bold;">Our Blog</a><a> > </a><a style="font-weight: bold; color: goldenrod;">Blog Details</a></div>
+          </section>
+          <section class="Catalog">
+            <div class="Catalog_main">
+            <div class="Catalog_options">
+            <input type="text" placeholder="Search" style="border: 2px solid black;border-radius: 5px;width: 88%;height: 30px;padding-left: 15px;">
+              <h3>CATEGORIES</h3>
+              <table>
+                <tr><td><a>Sports<span>></span></a></td></tr>
+                <tr><td><a>Fashion<span>></span></a></td></tr>
+                <tr><td><a>Innovation<span>></span></a></td></tr>
+                <tr><td><a>Sustaniability<span>></span></a></td></tr>
+                <tr><td><a>E-Commerce<span>></span></a></td></tr>
+                <tr><td><a>Customization<span>></span></a></td></tr>
+              </table>
+              <h3>TRENDING</h3>
+              <section class="team_section">
+                <a href="Product_single.html" style="text-decoration: none;color:black"><div class="team_container">
+                  <div class="team_card">
+                    <div class="team_img"><img src="../resources/Imgs/Homepage/new_arriavls_6.png"></div>
+                  </div>
+                  <div class="team_par">
+                    <div class="team_title">Paris S1</div>
+                    <div class="team_subtitle">19/03/25</div>
+                  </div>
+                </div></a>
+                <a href="Product_single.html" style="text-decoration: none;color:black"><div class="team_container">
+                  <div class="team_card">
+                    <div class="team_img"><img src="../resources/Imgs/Homepage/New_arrivals_2.png"></div>
+                  </div>
+                  <div class="team_par">
+                    <div class="team_title">Paris S1</div>
+                    <div class="team_subtitle">19/03/25</div>
+                  </div>
+                </div></a>
+                <a href="Product_single.html" style="text-decoration: none;color:black"><div class="team_container">
+                  <div class="team_card">
+                    <div class="team_img"><img src="../resources/Imgs/Homepage/New_arrivals_4.png"></div>
+                  </div>
+                  <div class="team_par">
+                    <div class="team_title">Paris S1</div>
+                    <div class="team_subtitle">19/03/25</div>
+                  </div>
+                </div></a>
+                <a href="Product_single.html" style="text-decoration: none;color:black"><div class="team_container">
+                  <div class="team_card">
+                    <div class="team_img"><img src="../resources/Imgs/Homepage/New_arrivals_8.png"></div>
+                  </div>
+                  <div class="team_par">
+                    <div class="team_title">Paris S1</div>
+                    <div class="team_subtitle">19/03/25</div>
+                  </div>
+                </div></a>
+              </section>
+              <h3>ARCHIVES</h3>
+              <select style="width:150px;height: 40px; text-align: center;border: 2px solid black;font-size: 16px;font-weight: bold;">
+                <option selected disabled hidden>March 2023</option>
+                <option>idk1</option>
+                <option>idk2</option>
+                <option>idk3</option>
+                <option>idk4</option>
+                <option>idk5</option>
+              </select>
+              <input type="email" style="border:2px solid black;padding:10px;width:70%;margin-top: 40px;font-weight: bold;" placeholder="Email for Newsletters">
+            </div>
+            <div class="Catalog_container" style="box-shadow: 0px 0px 7px gray;"">
+              <section class="New_section">
+                <div class="New_container">
+                  <div class="New_card">
+                    <div class="New_img"><img src="../resources/Imgs/Indivudal blog/Main technolgy meets trend blog cover.jpg"></div>
+                    <div class="New_subtitle2"><a><strong>Fashion</strong></a></div>
+                    <div class="New_subtitle"><a><strong>Digitalization: Trend Meets Technology</strong></a></div>
+                    <div class="New_price"><strong>The footwear industry is a wide range of technology from traditional and  advanced techniques like 3D printing and smart materials. Artificial  intelligence-based shoes are footwear equipped with AI technology that  provide personalized comfort and performance enhancing features, such  as automatic adjustments to fit and gait analysis. Due to the use of various  materials, the variety of product types and shoes making remains largely  manual. The latest advances and the emergence of new technologies. The  quick advancement and widespread use of technology has fundamentally  changed how people work, live, communicate and engage with one  another. Although technology is helping humans in many positive ways, as  we know everything has both merits and demerits. Just like that,  technology also has both positive aspects and negative aspects. </strong></div><br>
+                    <div class="New_price"><strong>Technology is enhancing day by day with many more features and it has  many positive impacts in human life. It has permanently altered our  everyday lives, the way we used to live, work, interact and communicate  with others, it has transformed several fields like communication,  education, healthcare and general advancement.  Along with communication, the transformation in education is also one of  the most significant impacts of technology. People can get various shoes  collection such as Sneakers, oxford, running shoes, climbing shoes etc. It  can also be available online shopping and in the supermarket. Technology has become a key factor in advancement, affecting everything  from shop and online based and how people communicate and buy the  products.</strong></div><br>
+                    <div class="New_price"><strong>Although we cannot deny that technology has brought many positive  changes, it is necessary to acknowledge that along with the positive impact  its rapid growth has also had some negative impact on human life. As we all know, technology has brought too many social platforms through  which humans can digitally communicate with each other and due to this  there less interaction between people. People might communicate  virtually more often than communicating personally which may result in  feelings of loneliness and decrease in the quality of interactions between  people. Also, the footwear industry currently faces some challenges due to ever changing consumer preferences, manage the cost of goods or raw  materials, human resources and financial challenges in the market  strategies.</strong></div><br>
+                    <div class="New_price"><strong>The use of technology in the footwear industry is to provide personalized  comfort and enhance enhanced features, such as automatic adjustments to  fitness and gait analysis. And protection against adversities of the  environment such as wear from rough ground, stability on slippery ground,  and temperature.</strong></div><br>
+                    <div class="New_price"><strong>In conclusion, we can say that technology has a dynamic impact on human  life in every sector. It is constantly evolving human life and creating a  foundation for future which will be even more inventive and creative. But,  along with the advancement of technology it may bring some drawbacks,  so it is necessary to recognize and deal with it and also we need to be  prepared for upcoming one.</strong></div>
+                  </div>
+                  </div>
+              </section>
+              <div style="display:flex;justify-content: center;margin:30px;border-top: 2px solid black;border-bottom: 2px solid black;">
+                <p style="flex:10;font-weight: bold;font-size: 18px;">Author: Anju Yadav</p>
+                <div class="social-icons" style="flex:1;display:flex;gap: 20px;">
+                  <img src="../resources/Imgs/footer/facebook-svgrepo-com.svg" alt="facebook" width="12px">
+                  <img src="../resources/Imgs/footer/instagram-svgrepo-com.svg" alt="Instagram" width="20px">
+                  <img src="../resources/Imgs/footer/twitter-svgrepo-com.svg" alt="Twitter" width="20px">
+                  </div>
+              </div>
+              <div style="margin:30px;">
+                <h2>2 Comments</h2>
+                <div style="height: fit-content;border: 2px solid black;" >
+                <section class="team_section"style="margin-top: 30px;margin-left:20px;"id="commentsec">
+                  <div class="team_container2">
+                    <div class="team_card" >
+                      <div class="team_img2"><img src="../resources/Imgs/Indivudal blog/Comment 1.jpg" style="border-radius: 100%;"></div>
+                    </div>
+                    <div class="team_par">
+                      <div class="team_title">"Gained a lot of knowledge. Perfect blog for us.Customer support has been excellent and answered <br> every question we've
+                        thrown at them with 12 hours.”
+                        </div>
+                      <div class="team_subtitle">2 days ago, 26th March 2025</div>
+                    </div>
+                  </div>
+                  <div class="team_container2"style="margin-top: 30px;">
+                    <div class="team_card">
+                      <div class="team_img2"><img src="../resources/Imgs/Indivudal blog/Comment 2.jpg"style="border-radius: 100%;"></div>
+                    </div>
+                    <div class="team_par">
+                      <div class="team_title">"An excellent read". Loved the ideas and explorations. Keep going!"</div>
+                      <div class="team_subtitle">45 minutes ago, 28th March 2025</div>
+                    </div>
+                  </div>
+                  </section>
+                </div>
+              </div>
+              <div style="margin: 30px;margin-top: 80px;">
+                <h2 style="margin-bottom: 10px;">Leave A Comment</h2>
+                <p style="margin-top: 10px;font-weight: bold;">Your email address will not be published. Required fields are marked * </p>
+                    <input  id="Username" type="text" placeholder="Name*" style="width: 200px; height: 35px; margin-top: 20px;border: 2px solid black;font-weight: bold;">
+                    <input id="email" type="email" placeholder="Email*" style="width: 325px; height: 35px; margin-left: 12px;border: 2px solid black;font-weight: bold;"><br>
+                    <textarea id="commenttext" placeholder="Comment" style="width: 550px; height: 150px; resize: none; margin-top: 20px;border: 2px solid black;font-weight: bold;"></textarea><br>
+                    <button  onclick="Addcomment()" style="margin-top:12px; width: 90px; height: 35px;cursor:pointer;border: 2px solid black;background-color: transparent;font-weight: bold;">
+                        Send
+                    </button>
+              </div>
+            </div>
+            </div>
+          </div>
+          </section>
+          
+
+          
+        </div>
+<!-- Footer section, About Us & Contacts-->
+<footer>
+  <div class="footer-container">
+      <div class="footer-column">
+          <img src="../resources/Imgs/Logos/image.png" alt="just a random logo" width="200px">
+          
+      </div>
+  <div class="footer-column">
+      <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">About Us</a></li>
+      </ul>
+
+  </div>
+  <div>
+     <p>Contact</p>
+     <p>Email</p>
+     <p>Blogs</p>
+  </div>
+  <div class="footer-column">
+      <p>+977-9841-37-XXXX</p>
+      <p>akira@inquiry.com</p>
+      <div class="social-icons">  <!-- Appearing of the icons on the same line creating a seperate class -->
+      <img src="../resources/Imgs/footer/facebook-svgrepo-com.svg" alt="facebook" width="12px">
+      <img src="../resources/Imgs/footer/instagram-svgrepo-com.svg" alt="Instagram" width="20px">
+      <img src="../resources/Imgs/footer/twitter-svgrepo-com.svg" alt="Twitter" width="20px">
+      </div>
+      </div>
+    </div>
+    <div class="footer_rights">
+      <a>2025 Akira NP,Inc. All rights reserved</a>
+    </div>
+</footer>
+    </body>
+</html>

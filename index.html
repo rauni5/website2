@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AKIRA</title>
+        <!--Meta tag for description of page -->
+        <meta name="description" content="Akira homepage, footwear distributor">
+        <!--Meta tag for keywords used to design and develop the website-->
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <link rel="stylesheet" href="resources/css/promo.css">
+        <link rel="stylesheet" href="resources/css/main.css">
+        <link rel="stylesheet" href="resources/css/footer.css">
+        <link rel="stylesheet" href="resources/css/Catagory.css">
+        <link rel="stylesheet" href="resources/css/New_arrivals.css">
+        <link rel="stylesheet" href="resources/css/Team.css">
+        <script src="resources/Java/main.js"></script>
+    </head>
+    <body>
+
+      <div class="main"> 
+      <!--Navigation Bar-->
+      <nav id="navbar" class="transparent">
+        <div class="nav-left">
+          <div style="width: 40px;"></div>
+          <a  class="menu" style="cursor: pointer;" onclick="openNav()">&equiv;</a>
+          <div style="width: 20px;"></div>
+          <img src="resources/Imgs/Logos/Shopping_cart.png" class="nav-icon" onclick="opencart()">
+        </div>
+          <img src="resources/Imgs/Logos/image.png" class="center-logo">
+        <div class="nav-right">
+          <a href="pages/Account.html"><img src="resources/Imgs/Logos/profile.png" class="nav-icon"></a>
+          <div style="width: 40px;"></div>
+          <img src="resources/Imgs/Logos/Search.png" class="nav-icon">
+          <div style="width: 70px;"></div>
+        </div>
+      </nav>
+      <!--Cart and Menu-->
+      <section id="menudrop" class="menudrop">
+        <a class="closemenu"  onclick="closeNav()">&times;</a>
+        <a href="pages/Product.html">Shop <span>&#8250;</span></a>
+        <a href="pages/Blog.html">Blog <span>&#8250;</span></a>
+        <a href="pages/Account.html">Account <span>&#8250;</span></a>
+        <a href="pages/Research.html">Research <span>&#8250;</span></a>
+        <a href="pages/About_us.html">About Us <span>&#8250;</span></a>
+        <a href="pages/Contact_us.html">Contact Us <span>&#8250;</span></a>
+      </section>
+      <section id="cartdrop" class="cartdrop">
+        <a class="closemenu"  onclick="closecart()">&times;</a>
+        <h2 style="padding:30px">SHOPPING CART</h2>
+        <article>
+          <img src="resources/Imgs/Logos/Logo 1.jpg" alt="item">
+          <p style="width:100%;"><strong>MATRIX AIR</strong><br><small>1 × Rs 8,999</small></p>
+          <span style="cursor:pointer;">🗑️</span>
+        </article>
+        <article>
+          <img src="resources/Imgs/Logos/Logo 1.jpg" alt="item" >
+          <p style="width:100%"><strong>SAMBA BLUE</strong><br><small>1 × Rs 18,999</small></p>
+          <span style="cursor:pointer;">🗑️</span>
+        </article>
+    
+        <p class="subtotal"><strong>Subtotal:</strong> <span>Rs 27,998</span></p>
+    
+        <button>View Cart</button><br>
+        <button>Checkout</button>
+      </section>
+        <!--Navigation Bar Ending-->
+        <!--Promotion Section Starting-->
+      <div class="promo">
+          <div class="container">
+            <img src="resources/Imgs/Homepage/Homepage  Cover.jpg" alt="Spring Summer">
+          </div>
+          <div class="content">
+            <div class="subtitle">YEEZES 320 X</div>
+            <div class="title">Spring<br>Summer ’25</div>
+            <button class="shop-button"><a href="pages/Product.html" style="text-decoration: none; color: black;">SHOP NOW</a></button>
+          </div>
+      </div>
+        <!--Promotion Section Ending-->
+        <!--Categories Section Starting-->
+      <section class="Catagories_section">
+        <h2>CATEGORIES</h2>
+        <div class="cata_container">
+          <div class="cata_card">
+            <a href="pages/Product.html"><div class="cata_img">
+                <img src="resources/Imgs/Homepage/vansoldskool.jpg" alt="Shop Vans Shoes">
+              </div></a>
+            <div class="cata_subtitle">
+              <a href="pages/Product.html"><strong><u>Shop Vans Old Skool</u></strong></a>
+            </div>
+          </div>          
+          <div class="cata_card">
+            <a href="pages/Product.html"><div class="cata_img">
+                <img src="resources/Imgs/Homepage/Categories 2.jpg" alt="Shop Yeezys">
+              </div></a>
+            <div class="cata_subtitle">
+              <a href="pages/Product.html"><strong><u>Shop YEEZES</u></strong></a>
+            </div>
+          </div> 
+          <div class="cata_card">
+            <a href="pages/Product.html"><div class="cata_img">
+                <img src="resources/Imgs/Homepage/pumashoes_01.jpg" alt="Shop Yeezys">
+              </div></a>
+            <div class="cata_subtitle">
+              <a href="pages/Product.html"><strong><u>Shop Puma Shoes</u></strong></a>
+            </div>
+          </div> 
+        </div> 
+      </section>
+      <!--Categories Section Ending-->
+      <!--New Arrivals Section Starting-->
+      <section class="Newhead_section">
+        <h2>NEW ARRIVALS</h2>
+        <div class="Newhead_container">
+          <div class="Newhead_card">
+            <a href="pages/Product.html"><strong><u>ALL</u></strong></a>
+          </div>  
+          <div class="Newhead_card">
+            <a href="pages/Product.html#men"><strong><u>MEN</u></strong></a>
+          </div>
+          <div class="Newhead_card">
+            <a href="pages/Product.html#women"><strong><u>WOMEN</u></strong></a>
+          </div>
+          <div class="Newhead_card">
+            <a href="pages/Product.html#kids"><strong><u>KIDS</u></strong></a>
+          </div>
+        </section>
+      <section class="New_section">
+        <div class="New_container">
+          <div class="New_card">
+            <a href="pages/Product_single.html"><div class="New_img">
+              <img src="resources/Imgs/Homepage/New_arrivals_1.png" alt="Shop Yeezys">
+            </div></a>
+            <div class="New_subtitle"><a href="pages/Product_single.html"><strong>Adidas Dropset 2</strong></a></div>
+            <div class="New_price"><strong>Rs. 19,999</strong></div>
+          </div>
+          <div class="New_card">
+            <a href="pages/Product_single.html"><div class="New_img">
+              <img src="resources/Imgs/Homepage/New_arrivals_2.png" alt="Shop Yeezys">
+            </div></a>
+            <div class="New_subtitle"><a href="pages/Product_single.html"><strong>Adidas Handball Spezial</strong></a></div>
+            <div class="New_price"><strong>Rs. 15,499</strong></div>
+          </div>
+          <div class="New_card">
+            <a href="pages/Product_single.html"><div class="New_img">
+              <img src="resources/Imgs/Homepage/New_arrivals_3.png" alt="Shop Yeezys">
+            </div></a>
+            <div class="New_subtitle"><a href="pages/Product_single.html"><strong>Adidas Rivalry Row</strong></a></div>
+            <div class="New_price"><strong>Rs. 10,999</strong></div>
+          </div>
+          <div class="New_card">
+            <a href="pages/Product_single.html"><div class="New_img">
+              <img src="resources/Imgs/Homepage/New_arrivals_4.png" alt="Shop Yeezys">
+            </div></a>
+            <div class="New_subtitle"><a href="pages/Product_single.html"><strong>Adidas OZWEEGO</strong></a></div>
+            <div class="New_price"><strong>Rs. 29,099</strong></div>
+          </div>
+          <div class="New_card">
+            <a href="pages/Product_single.html"><div class="New_img">
+              <img src="resources/Imgs/Homepage/New_arrivals_5.png" alt="Shop Yeezys">
+            </div></a>
+            <div class="New_subtitle"><a href="pages/Product_single.html"><strong>Jordan 1 Low "Midnight Navy"</strong></a></div>
+            <div class="New_price"><strong>Rs. 14,099</strong></div>
+          </div><div class="New_card">
+            <a href="pages/Product_single.html"><div class="New_img">
+              <img src="resources/Imgs/Homepage/new_arriavls_6.png" alt="Shop Yeezys">
+            </div></a>
+            <div class="New_subtitle"><a href="pages/Product_single.html"><strong>Jordan 1 Mid "Triple White"</strong></a></div>
+            <div class="New_price"><strong>Rs. 49,9999</strong></div>
+          </div>
+          <div class="New_card">
+            <a href="pages/Product_single.html"><div class="New_img">
+              <img src="resources/Imgs/Homepage/new_arriavls_7.png" alt="Shop Yeezys">
+            </div></a>
+            <div class="New_subtitle"><a href="pages/Product_single.html"><strong>Jordan Womens Heir</strong></a></div>
+            <div class="New_price"><strong>Rs. 19,999</strong></div>
+          </div>
+          <div class="New_card">
+            <a href="pages/Product_single.html"><div class="New_img">
+              <img src="resources/Imgs/Homepage/New_arrivals_8.png" alt="Shop Yeezys">
+            </div></a>
+            <div class="New_subtitle"><a href="pages/Product_single.html"><strong>Adidas Argentina Samba</strong></a></div>
+            <div class="New_price"><strong>Rs. 21,999</strong></div>
+          </div>
+        </div>
+          </section>
+        <!--New Arrivals Section Ending-->
+        <!--The Team Section Starting-->
+          <section class="team_section">
+            <div class="team_container">
+              <div class="team_card">
+                <div class="team_img">
+                  <img src="resources/Imgs/Homepage/The team.jpg" alt="Shop Yeezys">
+                </div>
+              </div>
+              <div class="team_par">
+                <div class="team_title">THE TEAM</div>
+                <div class="team_subtitle">Great minds think alike, The backstage of "Akira", A group of passionate enthusiastic individuals who came together for this venture with an aim to establish a globally accessible online marketplace specializing in the resale of high end footwear from the leading brands in the footwear industry.
+                </div>
+                <button class="explore-button"><a href="pages/About_us.html">LEARN MORE</a></button>
+              </div>
+            </div>
+          </section>
+        <!--The Team Section Ending-->
+        <!--Blogs Section Staring-->
+<section class="blogs_section">
+  <h2>Latest Blogs</h2>
+  <div class="blog_container">
+      <a href="pages/Blog.html" ><div class="blog_card" style="background-image: url(resources/Imgs/Homepage/Blog\ image\ 1.jpg);">
+          <div class="blog_content">
+              <h3>Backstage Productions</h3>
+              <p>“Will this be enough for our venture?”. The question about passion and growth which every individual brings, A story inspiring millions of young enthusiasts Akira’s “Backstage Productions” story of every individual is now coming soon exclusive on its website.</p>
+              <button class="explore-button">Explore</button>
+          </div>
+      </div></a>
+      <!-- Second Blog Card -->
+      <a href="pages/Blog.html"><div class="blog_card" style="background-image: url(resources/Imgs/Homepage/Blog\ image\ 2.jpg);">
+          <div class="blog_content">
+              <h3>Inside Jordans S1</h3>
+              <p>“What makes an story eligble for an story?”. Maybe a question every scriptwriter has when they begin a storyline, A different perspective?, We believe the idea of just visualizing when a first letter of any specific product makes an story, with this saying the idea turned into visuals into reality “Inside Jordans S1” now avalaible. </p>
+              <button class="explore-button">Explore</button>
+          </div>
+      </div>
+  </div></a>
+</section>
+<!--Blogs Section Ending-->
+<!-- Products Section With Hovering -->
+<section class="blogs_section2">
+  <div class="blog_container2">
+    <a href="pages/Blog.html"><div class="blog_card2" style="background-image: url(resources/Imgs/Homepage/Blog\ 3.jpg);"></a>
+      </div>
+      <a href="pages/Blog.html"><div class="blog_card2" style="background-image: url(resources/Imgs/Homepage/Blog\ 4.jpg);"></a>
+      </div>
+      <a href="pages/Blog.html"><div class="blog_card2" style="background-image: url(resources/Imgs/Homepage/IMG_9712.jpeg);"></a>
+      </div>
+      <a href="pages/Blog.html"><div class="blog_card2" style="background-image: url(resources/Imgs/Homepage/IMG_9713.jpeg);"></a>
+      </div>
+  </div>
+</section>
+<section class="our_network">
+  <h2>RESEARCH</h2>
+  <div class="network_gallery">
+  <img src="resources/Imgs/footer/adidaslogo.jpg"alt="Adidas" width="100px">
+  <img src="resources/Imgs/footer/nikelogo.jpg" alt="Nike" width="100px">
+  <img src="resources/Imgs/footer/puma_logo.jpg" alt="Puma" width="100px">
+  <img src="resources/Imgs/footer/new_balance.png" alt="NewBalance" width="100px">
+  </div>
+
+</section>
+
+</div>
+
+<!-- Footer section, About Us & Contacts-->
+<footer>
+  <div class="footer-container">
+      <div class="footer-column">
+          <img src="resources/Imgs/Logos/image.png" alt="just a random logo" width="200px">
+          
+      </div>
+  <div class="footer-column">
+      <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">About Us</a></li>
+      </ul>
+
+  </div>
+  <div>
+     <p>Contact</p>
+     <p>Email</p>
+     <p>Blogs</p>
+  </div>
+  <div class="footer-column">
+      <p>+977-9841-37-XXXX</p>
+      <p>akira@inquiry.com</p>
+      <div class="social-icons">  <!-- Appearing of the icons on the same line creating a seperate class -->
+      <img src="resources/Imgs/footer/facebook-svgrepo-com.svg" alt="facebook" width="12px">
+      <img src="resources/Imgs/footer/instagram-svgrepo-com.svg" alt="Instagram" width="20px">
+      <img src="resources/Imgs/footer/twitter-svgrepo-com.svg" alt="Twitter" width="20px">
+      </div>
+      </div>
+    </div>
+    <div class="footer_rights">
+      <a>2025 Akira NP,Inc. All rights reserved</a>
+    </div>
+</footer>
+
+    </body>
+</html>

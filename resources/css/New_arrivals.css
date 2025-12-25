@@ -1,0 +1,92 @@
+.New_section {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.New_section h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+}
+.New_container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.New_card {
+    flex: 4;
+    border: 1px dashed gray;
+    min-width: 300px;
+    max-width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    margin: 10px;
+    transition:0.3s ease;
+    border-radius: 50px;
+}
+.New_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.799);
+}
+.Newhead_container .Newhead_card a:hover,.New_card:hover .New_subtitle a,.New_card:hover .New_price{
+    color: goldenrod;
+}
+.New_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.New_img img {
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.New_card .New_subtitle{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-size: 21px;
+}
+.New_subtitle a{
+    color: black;
+    text-decoration: none;
+}
+.New_card .New_price{
+    text-align:center;
+    color: #555;
+}
+.Newhead_section h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+}
+.Newhead_container {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.Newhead_card {
+    flex: 0;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.Newhead_card a{
+    color: black;
+}
